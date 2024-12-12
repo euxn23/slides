@@ -1,0 +1,21 @@
+{
+  "name": "typed-api-request",
+  "type": "module",
+  "packageManager": "pnpm@9.1.0",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export --output typed-api-request.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "0.50.0-beta.5",
+    "@euxn23/slidev-theme-bricks": "workspace:*",
+    "slidev-theme-darcula": "workspace:*",
+    "vue": "3.5.12"
+  },
+  "devDependencies": {
+    "playwright-chromium": "1.48.2",
+    "prettier": "2.8.8"
+  }
+}

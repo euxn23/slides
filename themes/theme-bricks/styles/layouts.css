@@ -1,0 +1,21 @@
+.slidev-layout {
+  h1, h2, h3 {
+    @apply font-serif leading-16;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  /*h1 + p {*/
+  /*  @apply -mt-4 opacity-50 mb-4 font-serif;*/
+  /*}*/
+
+  /*p + h2, ul + h2, table + h2 {*/
+  /*  @apply mt-10;*/
+  /*}*/
+
+  ul {
+    list-style: disc;
+  }
+}
