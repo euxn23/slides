@@ -1,0 +1,6 @@
+node_modules
+dist
+*.mp4
+.vite-inspect
+.remote-assets
+components.d.ts
